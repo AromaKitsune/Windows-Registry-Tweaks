@@ -11,8 +11,12 @@ The REG files are provided here so you can just import it, including those that 
 
 Show folder sizes in File Explorer's Tiles view, Content view, and Status Bar
 
-Windhawk, "Better file sizes in Explorer details" mod, and voidtools' Everything are required.
-Refer to the [Windhawk mod description](https://windhawk.net/mods/explorer-details-better-file-sizes) for setup instructions.
+The following software are required:
+* [Windhawk](https://windhawk.net/)
+* "[Better file sizes in Explorer details](https://windhawk.net/mods/explorer-details-better-file-sizes)" mod for Windhawk
+* voidtools' [Everything](https://www.voidtools.com/)
+
+Refer to the Windhawk mod description for setup instructions.
 
 Folder sizes work only on Windows 10 and 11.
 
