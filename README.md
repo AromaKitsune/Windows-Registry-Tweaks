@@ -38,10 +38,13 @@ Refer to the [Microsoft documentation](https://learn.microsoft.com/en-us/windows
 | [Reset to default (Win11)](/registration-entries/PropertyLists-DefaultWin11.reg)
 | [Reset to default (Win10)](/registration-entries/PropertyLists-DefaultWin10.reg)
 
+**Details view**
 ![](/screenshots/FileExplorerDetailsView.png)
 
+**Tiles view**
 ![](/screenshots/FileExplorerTilesView.png)
 
+**Content view**
 ![](/screenshots/FileExplorerContentView.png)
 
 
