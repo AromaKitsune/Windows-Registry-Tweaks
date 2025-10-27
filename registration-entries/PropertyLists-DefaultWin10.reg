@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder]
+"ContentViewModeForBrowse"="prop:~System.ItemNameDisplay;~System.LayoutPattern.PlaceHolder;~System.LayoutPattern.PlaceHolder;~System.LayoutPattern.PlaceHolder;System.DateModified"
+"ContentViewModeForSearch"="prop:~System.ItemNameDisplay;System.DateModified;~System.ItemFolderPathDisplay"
+"TileInfo"="prop:System.Title;System.HomeGroupSharingStatus"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory]
+"InfoTip"="prop:System.Comment;System.DateCreated"
+"PreviewDetails"="prop:System.DateModified;*System.SharedWith;*System.StorageProviderState;*System.OfflineAvailability;*System.OfflineStatus"
+"StatusBar"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Drive]
+"StatusBar"=-
+

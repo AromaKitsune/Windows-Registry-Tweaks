@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder]
+"ContentViewModeForBrowse"="prop:~System.ItemNameDisplay;~System.LayoutPattern.PlaceHolder;~System.LayoutPattern.PlaceHolder;~System.LayoutPattern.PlaceHolder;System.DateModified;System.Size"
+"ContentViewModeForSearch"="prop:~System.ItemNameDisplay;System.DateModified;~System.ItemFolderPathDisplay;System.Size"
+"TileInfo"="prop:System.Title;System.Size"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory]
+"InfoTip"="prop:System.Comment;System.DateCreated;System.Size"
+"PreviewDetails"="prop:System.DateModified;System.Size;System.DateCreated;*System.SharedWith;*System.StorageProviderState;*System.OfflineAvailability;*System.OfflineStatus"
+"StatusBar"="prop:~System.StatusBarViewItemCount;~System.Size;System.FreeSpace;~System.PercentFull;~System.StatusBarSelectedItemCount;~System.StatusBarItemAvailability;System.StatusBarStorageProviderError;System.StatusIcons;System.Sync.ItemState;~System.Sync.GlobalActivityMessage;~System.Sync.LastSyncedMessage"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Drive]
+"StatusBar"="prop:~System.StatusBarViewItemCount;System.FreeSpace;~System.PercentFull;~System.StatusBarSelectedItemCount;~System.StatusBarItemAvailability;System.StatusBarStorageProviderError;System.StatusIcons;System.Sync.ItemState;~System.Sync.GlobalActivityMessage;~System.Sync.LastSyncedMessage"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"FolderContentsInfoTip"=dword:00000000
+
