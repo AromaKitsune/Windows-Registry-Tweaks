@@ -11,7 +11,7 @@ The REG files are provided here so you can just import it, including those that 
 
 Show folder sizes in File Explorer's Tiles view, Content view, and Status Bar
 
-The following software are required:
+The following programs and plugin are required:
 * [Windhawk](https://windhawk.net/)
 * "[Better file sizes in Explorer details](https://windhawk.net/mods/explorer-details-better-file-sizes)" mod for Windhawk
 * voidtools' [Everything](https://www.voidtools.com/)
