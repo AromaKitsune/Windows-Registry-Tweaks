@@ -26,10 +26,10 @@ by adding the `System.Size` property to those property lists.
 Refer to the [Microsoft documentation](https://learn.microsoft.com/en-us/windows/win32/properties/core-bumper) for a list of core properties.
 
 ### Other tweaks include
-* InfoTip: Show a folder size in a folder ToolTip via Everything instead of slowly calculating it
+* **InfoTip**: Show a folder size in a folder ToolTip via Everything instead of slowly calculating it
   * On registry import, this disables the "Display file size information in folder tips" option in Folder Options.
-* PreviewDetails: Show the total size of selected items (up to 99) in status bar, even if folders are selected
-* StatusBar: Show a current folder's size, disk's free space, and disk usage indicator in status bar
+* **PreviewDetails**: Show the total size of selected items (up to 99) in status bar, even if folders are selected
+* **StatusBar**: Show a current folder's size, disk's free space, and disk usage indicator in status bar
   * Folder size also works with:
     * Bottom details pane (enabled via [OldNewExplorer](https://www.majorgeeks.com/files/details/oldnewexplorer.html) )
     * Classic status bar (enabled via [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) )
