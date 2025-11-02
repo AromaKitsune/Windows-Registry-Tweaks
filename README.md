@@ -72,11 +72,16 @@ by adding a `REG_SZ` value with CLSID as a name.
 
 To find the CLSID's of modern context menu items not listed here:
 1. Go to `HKLM\SOFTWARE\Classes\PackagedCom\ClassIndex`.
-2. Press `Ctrl`+`F` to search for a key by program name.
+2. Press `Ctrl`+`F` to search for a key by program name, in this case, "Notepad".
 3. Go up one key, which has a CLSID as a name.
+
+![](/screenshots/HideWin11ContextMenu1.png)
+
 4. Copy this key name.
 5. Go to `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked`.
 6. Create a `REG_SZ` value, and paste the CLSID into the created value's name text box.
+
+![](/screenshots/HideWin11ContextMenu2.png)
 
 
 ## Custom File Type Descriptions
