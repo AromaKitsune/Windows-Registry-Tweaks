@@ -70,7 +70,13 @@ by adding a `REG_SZ` value with CLSID as a name.
 [REG file](/registration-entries/ModernContextMenu-HideItems.reg)
 | [Restore menu items](/registration-entries/ModernContextMenu-RestoreItems.reg)
 
-To find a CLSID for a menu item that you want to hide, go to `HKLM\SOFTWARE\Classes\PackagedCom\ClassIndex` and press `Ctrl`+`F` to search for a key by program name.
+To find the CLSID's of modern context menu items not listed here:
+1. Go to `HKLM\SOFTWARE\Classes\PackagedCom\ClassIndex`.
+2. Press `Ctrl`+`F` to search for a key by program name.
+3. Go up one key, which has a CLSID as a name.
+4. Copy this key name.
+5. Go to `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked`.
+6. Create a `REG_SZ` value, and paste the CLSID into the created value's name text box.
 
 
 ## Custom File Type Descriptions
