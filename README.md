@@ -61,9 +61,11 @@ by adding a `REG_SZ` value with CLSID as a name.
 | Ask Copilot          | `{CB3B0003-8088-4EDE-8769-8B354AB2FF8C}` |
 | Create with Designer | `{7A53B94A-4E6E-4826-B48E-535020B264E5}` |
 | Edit in Notepad      | `{CA6CC9F1-867A-481E-951E-A28C5E4F01EA}` |
-| Move to OneDrive     | `{1FA0E654-C9F2-4A1F-9800-B9A75D744B01}` |
+| Edit with Clipchamp  | `{8AB635F8-9A67-4698-AB99-784AD929F3B4}` |
+| Edit with Notepad++  | `{E6950302-61F0-4FEB-97DB-855E30D4A991}` |
 | Edit with Paint      | `{2430F218-B743-4FD6-97BF-5C76541B4AE9}` |
 | Edit with Photos     | `{BFE0E2A4-C70C-4AD7-AC3D-10D1ECEBB5B4}` |
+| Move to OneDrive     | `{1FA0E654-C9F2-4A1F-9800-B9A75D744B01}` |
 
 [REG file](/registration-entries/ModernContextMenu-HideItems.reg)
 | [Restore menu items](/registration-entries/ModernContextMenu-RestoreItems.reg)
