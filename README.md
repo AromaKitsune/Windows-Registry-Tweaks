@@ -27,7 +27,7 @@ Refer to the [Microsoft documentation](https://learn.microsoft.com/en-us/windows
 
 ### Other tweaks include:
 * **InfoTip**: Show a folder size in a folder ToolTip via Everything instead of slowly calculating it
-  * On registry import, this disables the "Display file size information in folder tips" option in Folder Options.
+  * On registry import, this disables the "Display file size information in folder tips" option in Folder Options so the folder size won't be shown twice.
 * **PreviewDetails**: Show the total size of selected items (up to 99) in status bar, even if folders are selected
 * **StatusBar**: Show a current folder's size, disk's free space, and disk usage indicator in status bar
 
