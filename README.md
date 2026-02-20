@@ -19,7 +19,8 @@ The following programs and plugin are required:
   mod for Windhawk
 * voidtools' [Everything](https://www.voidtools.com/)
 
-Refer to the Windhawk mod description for setup instructions.
+Refer to the Windhawk mod description for setup instructions for enabling folder
+sizes via "Everything" integration.
 
 Folder sizes work only on Windows 10 and 11.
 
