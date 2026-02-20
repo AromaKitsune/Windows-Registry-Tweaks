@@ -2,9 +2,11 @@
 A small collection of various Windows Registry tweaks that might be useful.
 
 > [!WARNING]
-> Create a system restore point before modifying the regsitry in case you screw up something.
+> Create a system restore point before modifying the regsitry in case you screw
+> up something.
 
-The REG files are provided here so you can just import it, including those that undo the tweaks.
+The REG files are provided here so you can just import it, including those that
+undo the tweaks.
 
 
 ## Custom Property Lists
@@ -13,7 +15,8 @@ Show folder sizes in File Explorer's Tiles view, Content view, and Status Bar
 
 The following programs and plugin are required:
 * [Windhawk](https://windhawk.net/)
-* "[Better file sizes in Explorer details](https://windhawk.net/mods/explorer-details-better-file-sizes)" mod for Windhawk
+* "[Better file sizes in Explorer details](https://windhawk.net/mods/explorer-details-better-file-sizes)"
+  mod for Windhawk
 * voidtools' [Everything](https://www.voidtools.com/)
 
 Refer to the Windhawk mod description for setup instructions.
@@ -21,22 +24,32 @@ Refer to the Windhawk mod description for setup instructions.
 Folder sizes work only on Windows 10 and 11.
 
 > [!NOTE]
-> Since version 1.5 of this mod, folder sizes are shown in Tiles view, Content view, status bar, and bottom details pane.
-> You can import the registry tweaks here for additional features such as disk usage status.
+> Since version 1.5 of this mod, folder sizes are shown in Tiles view, Content
+> view, status bar, and bottom details pane. You can import the registry tweaks
+> here for additional features such as disk usage status.
 
-The registry tweaks enable showing folder sizes in File Explorer's Tiles view and Content view
-by adding the `System.Size` property to those property lists.
-Refer to the [Microsoft documentation](https://learn.microsoft.com/en-us/windows/win32/properties/core-bumper) for a list of core properties.
+The registry tweaks enable showing folder sizes in File Explorer's Tiles view
+and Content view by adding the `System.Size` property to those property lists.
+Refer to the
+[Microsoft documentation](https://learn.microsoft.com/en-us/windows/win32/properties/core-bumper)
+for a list of core properties.
 
 ### Other tweaks include:
-* **InfoTip**: Show a folder size in a folder ToolTip via Everything instead of slowly calculating it
-  * On registry import, this disables the "Display file size information in folder tips" option in Folder Options so the folder size won't be shown twice.
-* **PreviewDetails**: Show the total size of selected items (up to 99) in status bar, even if folders are selected
-* **StatusBar**: Show a current folder's size, disk's free space, and disk usage indicator in status bar
+* **InfoTip**: Show a folder size in a folder ToolTip via Everything instead of
+  slowly calculating it
+  * On registry import, this disables the "Display file size information in
+    folder tips" option in Folder Options so the folder size won't be shown
+    twice.
+* **PreviewDetails**: Show the total size of selected items (up to 99) in status
+  bar, even if folders are selected
+* **StatusBar**: Show a current folder's size, disk's free space, and disk usage
+  bar in status bar
 
 Folder size also works with:
-* Bottom details pane (enabled via [OldNewExplorer](https://www.majorgeeks.com/files/details/oldnewexplorer.html) )
-* Classic status bar (enabled via [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) )
+* Bottom details pane (enabled via
+  [OldNewExplorer](https://www.majorgeeks.com/files/details/oldnewexplorer.html) )
+* Classic status bar (enabled via
+  [Open-Shell](https://open-shell.github.io/Open-Shell-Menu/) )
 
 [REG file](/registration-entries/PropertyLists-Custom.reg)
 | [Reset to default (Win11)](/registration-entries/PropertyLists-DefaultWin11.reg)
@@ -56,8 +69,10 @@ Folder size also works with:
 
 Hide the items from the Windows 11 context menu
 
-In the registry key, `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked`, you can hide the modern context menu items
-by adding a `REG_SZ` value with CLSID as a name.
+In the registry key,
+`HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked`,
+you can hide the modern context menu items by adding a `REG_SZ` value with CLSID
+as a name.
 
 | Menu Item            | CLSID                                    |
 | -------------------- | ---------------------------------------- |
@@ -75,14 +90,17 @@ by adding a `REG_SZ` value with CLSID as a name.
 
 To find the CLSID's of modern context menu items not listed here:
 1. Go to `HKLM\SOFTWARE\Classes\PackagedCom\ClassIndex`.
-2. Press `Ctrl`+`F` to search for a key by program name, in this case, "Notepad".
+2. Press `Ctrl`+`F` to search for a key by program name, in this case,
+   "Notepad".
 3. Go up one key, which has a CLSID as a name.
 
 ![](/screenshots/HideWin11ContextMenu1.png)
 
 4. Copy this key name.
-5. Go to `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked`.
-6. Create a `REG_SZ` value, and paste the CLSID into the created value's name text box.
+5. Go to
+   `HKCU\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked`.
+6. Create a `REG_SZ` value, and paste the CLSID into the created value's name
+   text box.
 
 ![](/screenshots/HideWin11ContextMenu2.png)
 
@@ -91,7 +109,8 @@ To find the CLSID's of modern context menu items not listed here:
 
 Customise the descriptions of file types
 
-Those file descriptions are changed to match the ones in Linux file managers such as Dolphin :)
+Those file descriptions are changed to match the ones in Linux file managers
+such as Dolphin :)
 
 | Original Description   | Custom Description | File Extensions
 | ---------------------- | ------------------ | ---------------
