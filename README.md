@@ -24,9 +24,9 @@ Refer to the Windhawk mod description for setup instructions.
 Folder sizes work only on Windows 10 and 11.
 
 > [!NOTE]
-> Since version 1.5 of this mod, folder sizes are shown in Tiles view, Content
-> view, status bar, and bottom details pane. You can import the registry tweaks
-> here for additional features such as disk usage status.
+> Since version 1.5 of this Windhawk mod, folder sizes are shown in Tiles view,
+> Content view, status bar, and bottom details pane. You can import the registry
+> tweaks here for additional features such as disk usage status.
 
 The registry tweaks enable showing folder sizes in File Explorer's Tiles view
 and Content view by adding the `System.Size` property to those property lists.
