@@ -34,7 +34,7 @@ and Content view by adding the `System.Size` property to those property lists.
 Refer to the
 [Microsoft documentation](https://learn.microsoft.com/en-us/windows/win32/properties/core-bumper)
 for a list of core properties, and
-[my comment on GitHub](https://github.com/ramensoftware/windhawk-mods/issues/2491#issuecomment-3762519795)
+[my comment on the Windhawk Mods repository](https://github.com/ramensoftware/windhawk-mods/issues/2491#issuecomment-3762519795)
 for detailed info about the registry tweaks for the property lists system.
 
 ### Other tweaks include:
